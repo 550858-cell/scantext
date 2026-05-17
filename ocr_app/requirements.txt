@@ -1,0 +1,26 @@
+# Python 3.10 / 3.11 recommended (avoid 3.12+ for PaddlePaddle stability)
+#
+# PaddleOCR + PaddlePaddle versions are tightly coupled. The pair below
+# is a known-good combination for the classic ocr.ocr(...) API used here.
+paddlepaddle==2.6.1
+paddleocr==2.7.3
+
+# GUI
+PyQt6==6.7.1
+
+# Global hotkeys (Windows: requires admin for some key combos, usually fine)
+keyboard==0.13.5
+
+# Screen capture
+mss==9.0.2
+
+# Image handling
+Pillow==10.4.0
+numpy==1.26.4
+
+# Clipboard
+pyperclip==1.9.0
+pywin32==306 ; platform_system == "Windows"
+
+# Build
+pyinstaller==6.10.0

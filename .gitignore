@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.spec.bak
+ocr_app/resources/icon.ico
