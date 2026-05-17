@@ -2,7 +2,7 @@
 #
 # PaddleOCR + PaddlePaddle versions are tightly coupled. The pair below
 # is a known-good combination for the classic ocr.ocr(...) API used here.
-paddlepaddle==2.6.1
+paddlepaddle==2.6.2
 paddleocr==2.7.3
 
 # GUI
